@@ -1,0 +1,97 @@
+#header-nav {
+    background-color: #DADADA;
+    border-radius: 0;
+    border-bottom: 2px solid #000000;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+.navbar-brand a:hover {
+     text-decoration: none;
+}
+
+.navbar-brand h1 {
+     font-family: 'Oxygen', sans-serif;
+     font-weight: bold;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+#nav-list {
+    background-color: white;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#nav-list a {
+    color: #951C49;
+}
+
+#nav-list a:hover {
+     background: #E7E7E7;
+}
+
+.navbar-default .navbar-collapse {
+    border: 0;
+}
+#heading {
+    margin-bottom: 30px;
+}
+.container-fluid .jumbotron {
+    border-radius: 0;
+    margin: auto 20px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 11px;
+}
+
+/*Stying thead Button*/
+
+/* Resizing */
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 8px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {    
+    display: block;
+    width: 32px;
+    height: 5px;
+}
+/* End of Resizing */
+
+/* Positioning */
+.navbar-toggle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+/* black default */
+.navbar-default [aria-expanded="false"]  {
+    border-color: black;   
+}
+
+.navbar-default  .navbar-toggle[aria-expanded="false"] .icon-bar {
+    background-color: black;
+}
+
+/* White on open menu */
+.navbar-default [aria-expanded="true"] {
+    border-color: white;
+}
+
+.navbar-default  .navbar-toggle[aria-expanded="true"] .icon-bar {
+    background-color: white;
+}
+
+/*End of Stying thead Button*/
+
+.container-fluid .row .col-xs-12 {
+    background-color: lightgray;
+    margin-bottom: 3em;
+    padding-bottom: 20px;
+}
